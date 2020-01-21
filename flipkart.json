@@ -1,0 +1,672 @@
+[
+  {
+    "id": "ELEC_PRD_1",
+    "name": "SAMSUNG Galaxy 1",
+    "price": 5500,
+    "description": "SAMSUNG Galaxy 1 is a smart phone at available price and customer satisfaction",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Samsung",
+    "RAM": "1GB RAM",
+    "modelName": "Galaxy 1",
+    "color": "Gold",
+    "battery": "2600 mAh Li-Ion Battery",
+    "imgPath": "images/ELEC_PRD_1.jpeg",
+    "rating": 3.5,
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": "10 % off"
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_2",
+    "name": "SAMSUNG Galaxy 2",
+    "price": 7500,
+    "description": "SAMSUNG Galaxy 2 is a smart phone",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Samsung",
+    "RAM": "1GB RAM",
+    "modelName": "Galaxy 2",
+    "color": "Gold",
+    "battery": "2600 mAh Li-Ion Battery",
+    "imgPath": "images/ELEC_PRD_2.jpeg",
+    "rating": 3.6,
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": "10 % off"
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_3",
+    "name": "HTC DESIRE",
+    "price": 12670,
+    "description": "HTC DESIRE 628 99HAJZ010-00 Dual Sim(4G),(Sunset Blue),An incredible selfie camera helps you look great on the go",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "HTC",
+    "RAM": "3 GB RAM",
+    "modelName": "628 99HAJZ010-00",
+    "color": "Sunset Blue",
+    "battery": "2200mAH",
+    "imgPath": "images/ELEC_PRD_4.jpeg",
+    "rating": 4,
+    "camera": {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "the feel and look for this phone is good. Excellent spec",
+        "rating": "3",
+        "commentedOn": "21/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "1131.65"
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_4",
+    "name": "HTC DESIRE 10",
+    "price": 15990,
+    "description": "Hi-resolution audio earphones, clear shield back panel and ultra-hard protective glass cover available in box.1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "HTC",
+    "RAM": "3 GB RAM",
+    "modelName": "2PUK100",
+    "color": "Polar White",
+    "battery": "2700mAH",
+    "imgPath": "images/ELEC_PRD_4.jpeg",
+    "rating": 3.5,
+    "camera": {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "the feel and look for this phone is good. Excellent spec",
+        "rating": "3",
+        "commentedOn": "21/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Cool features keeping in mind the low cost",
+        "rating": "4",
+        "commentedOn": "11/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "1428.65"
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_5",
+    "name": "Moto E3 Power",
+    "price": 7999,
+    "description": "Black, 16 GB",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Motorola",
+    "RAM": "2GB RAM",
+    "modelName": "Moto E3 Power",
+    "color": "Black",
+    "battery": "3500 mAh Battery",
+    "imgPath": "images/ELEC_PRD_5.jpeg",
+    "rating": 4,
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "smart",
+        "rating": "4",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Bravo"
+      },
+      {
+        "text": "Awesome",
+        "rating": "4",
+        "commentedOn": "15/01/2017",
+        "username": "John Cena"
+      },
+      {
+        "text": "Worth price. The mobile does not look cheap from any angle.",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Silver"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 7000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_6",
+    "name": "Lenovo Vibe",
+    "price": 7499,
+    "description": "Gold, Snapdragon 616, VoLTE update",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Lenovo",
+    "RAM": "2GB RAM",
+    "modelName": "K5",
+    "color": "Gold",
+    "battery": "2750mAH ",
+    "imgPath": "images/ELEC_PRD_6.jpeg",
+    "rating": 3,
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "smart",
+        "rating": "5",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Bravo"
+      },
+      {
+        "text": "Awesome",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "John Cena"
+      },
+      {
+        "text": "Worth price. The mobile does not look cheap from any angle.",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Silver"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 4999
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_7",
+    "name": "SAMSUNG Guru",
+    "price": 1760,
+    "description": "Simple design, coupled with user-friendly features is what sums up this Samsung Guru Music 2 feature phone, giving you reason enough to rely on this device for your important calls.",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Samsung",
+    "RAM": "2GB RAM",
+    "modelName": "Music 2",
+    "color": "Black",
+    "battery": "800 mAh Li-Ion Battery ",
+    "imgPath": "images/ELEC_PRD_7.jpeg",
+    "rating": 2,
+    "camera": {
+      "rear": "2MP"
+    },
+    "comments": [
+      {
+        "text": "Nice",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Jhonny Bravo"
+      },
+      {
+        "text": "Awesome Life",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "John Cena"
+      },
+      {
+        "text": "Worth price. The mobile does not look cheap from any angle.",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Silvester"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Axis Bank",
+        "percentage": "5% off"
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_40",
+    "name": "Apple iPhone",
+    "price": 36999,
+    "description": "Rich Kids",
+    "type": "electronics",
+    "subType": "mobile",
+    "brand": "Apple",
+    "RAM": "1 GB RAM",
+    "modelName": "iPhone 6",
+    "color": "White",
+    "battery": "Li-Ion Battery",
+    "imgPath": "images/ELEC_PRD_40.jpeg",
+    "rating": 5,
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Costly",
+        "rating": "2",
+        "commentedOn": "15/01/2017",
+        "username": "DJ Bravo"
+      },
+      {
+        "text": "Life ",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Cena John"
+      },
+      {
+        "text": "Worth price",
+        "rating": "4",
+        "commentedOn": "14/01/2017",
+        "username": "Ramu"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Emi",
+        "amount": "5000"
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_1",
+    "name": "Wings of Fire",
+    "price": 411.00,
+    "description": "Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal moments and life experiences of Dr. Kalam. It gives us an understanding on his journey of success. ",
+    "type": "books",
+    "subType": "biography",
+    "by": "Tiwari",
+    "imgPath": "images/BOOK_PRD_1.jpeg",
+    "rating": 4.5,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_2",
+    "name": "Biography: Dhirubhai Ambani",
+    "price": 227,
+    "description": "The biography of Dhirubhai Ambani is truly India’s rags to riches story. The inside pages contain an interesting and elevating story of how a poor village boy rose to become the legendary figure in the history of business what the well-established corporate houses of India with abundant resources could not achieve over a period of a century.",
+    "type": "books",
+    "subType": "biography",
+    "by": " RPH Editorial Board",
+    "imgPath": "images/BOOK_PRD_2.jpeg",
+    "rating": 4,
+    "comments": [
+      {
+        "text": "Very good book for the reader who is keen to know about Ambani. It gives a detail about all the success story and rivalry of Ambani.It also has some rare collection of pics of Ambani family.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "1 September 2016",
+        "username": "Raquieb khan"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_3",
+    "name": "TURNING POINTS",
+    "price": 151.00,
+    "description": "Turning Points: A Journey Through Challenges picks up where Wings of Fire finished.",
+    "type": "books",
+    "subType": "biography",
+    "by": "Kalam, A P J Abdul",
+    "imgPath": "images/BOOK_PRD_3.jpeg",
+    "rating": 4.5,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_4",
+    "name": "Cracking the Code",
+    "price": 110.00,
+    "description": "My Journey to Bollywood, Ayushmanns journey is a wholesome and insightful account of the trials and tribulations involved in trying to get a break in Mumbai's entertainment industry. - Ranveer Singh",
+    "type": "books",
+    "subType": "biography",
+    "by": "Ayushmann Khurrana,Tahira Kashyap",
+    "imgPath": "images/BOOK_PRD_4.jpeg",
+    "rating": 4.5,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_5",
+    "name": "Curfewed Night",
+    "price": 110.00,
+    "description": "Curfewed Night is a moving memoir on the conflict in Kashmir by Basharat Peer, an eminent and renowned Indian journalist.",
+    "type": "books",
+    "subType": "Fiction",
+    "by": "Basharat Peer",
+    "imgPath": "images/BOOK_PRD_5.jpeg",
+    "rating": 4.5,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_6",
+    "name": "BYCULLA TO BANGKOK",
+    "price": 180.00,
+    "description": "Sequel to the best-selling Dongri to Dubai, S. Hussain Zaidi’s Byculla to Bangkok returns to the Mumbai Underworld and tells the story of its dons.",
+    "type": "books",
+    "subType": "Fiction",
+    "by": "Zaidi, S. Hussain",
+    "imgPath": "images/BOOK_PRD_6.jpeg",
+    "rating": 4.2,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_7",
+    "name": "My Days with Baasha:",
+    "price": 199.00,
+    "description": "Suresh Krissna tells the story of the South Indian film legend who has become one of the greatest actors of his generation: the Superstar Rajnikant in My Days With Baasha: The Rajnikanth Phenomenon.",
+    "type": "books",
+    "subType": "Fiction",
+    "by": "Suresh Krissna,Malathi Rangarajan",
+    "imgPath": "images/BOOK_PRD_7.jpeg",
+    "rating": 4.6,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_8",
+    "name": "Captain Cool",
+    "price": 181.00,
+    "description": "Captain Cool is the story of Mahendra Singh Dhoni, the Captain of the Indian Cricket Team.",
+    "type": "books",
+    "subType": "biograpgy",
+    "by": "Gulu Ezekiel",
+    "imgPath": "images/BOOK_PRD_8.jpeg",
+    "rating": 4.6,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_9",
+    "name": "Train To Pakistan (PB)",
+    "price": 148.00,
+    "description": "Train To Pakistan shows what it must have been for the people caught in the middle of the Partition, when a country is divided along communal lines",
+    "type": "books",
+    "subType": "fiction",
+    "by": "Khushwant Singh",
+    "imgPath": "images/BOOK_PRD_9.jpeg",
+    "rating": 4.3,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  },
+  {
+    "id": "BOOK_PRD_10",
+    "name": "An Unsuitable Boy",
+    "price": 412.00,
+    "description": "Karan Johar is synonymous with success, panache, quick wit and outspokenness, which sometimes inadvertently creates controversy and makes headlines.",
+    "type": "books",
+    "subType": "fiction",
+    "by": "Karan Johar,Poonam Saxena",
+    "imgPath": "images/BOOK_PRD_10.jpeg",
+    "rating": 3.4,
+    "comments": [
+      {
+        "text": "I write this review bearing in mind that there is hardly anything I can say to pay tribute to this great citizen of the world which has not been said. To read this book is to experience what God would have experienced while creating everything from scratch. Late Dr. Kalam for me is from the league of Swami Vivekananda, Da Vinci and Tagore. He tops the list for me. He has served this country in times when he could have done so many things for his personal benefit anywhere in the world. No matter how much respect we give this soul his personality would dwarf everything.",
+        "rating": "5",
+        "commentedOn": "30 July 2015",
+        "username": "Siddharth "
+      },
+      {
+        "text": "I read this book back in December 2012. This book is more than just a biography, it has lot more to offer. It motivates you and inspires you a lot. The best time to read this book is early morning. You will feel the pump. #respectkalam",
+        "rating": "5",
+        "commentedOn": "6 June 2013",
+        "username": "Luiz"
+      }
+    ],
+    "offers": [
+      {
+        "type": "Book now",
+        "amount": 59
+      }
+    ]
+  }
+]
+
