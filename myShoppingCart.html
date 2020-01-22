@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <!--<meta charset="UTF-8" name="viweport" content="width=device-width, initial-scale=1.0" >-->
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
   <title>FilpCart</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -14,71 +15,80 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-light bg-primary fixed-top">
-  <img class="img-thumbnail navImages1" src="images/flipkartIcon.jpeg">
-  <a class="navbar-brand text-white">FlipKart</a>
-  <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-between" id="nav">
-    <ul class="navbar-nav">
-      <li class="nav-item dropdown" >
-        <!--<img class="img-thumbnail navImages" id="displayElectronics" src="images/elecotronics.jpg">-->
-        <a class="nav-link text-light font-weight-bold px-3 dropdown-toggle hoverElectronics" data-toggle="dropdown" href="#">Electronics</a>
-        <div class="dropdown-menu showElectronics">
-          <a class="dropdown-item" href="#">Mobile</a>
-          <a class="dropdown-item" href="#">Laptop</a>
-        </div>
-      </li>&nbsp;
-      <li class="nav-item dropdown">
-        <!--<img class="img-thumbnail navImages" id="displayBooks" src="images/books.jpg">-->
-        <a class="nav-link text-light font-weight-bold px-3 dropdown-toggle hoverBooks" data-toggle="dropdown" href="#">Books</a>
-        <div class="dropdown-menu showBooks">
-          <a class="dropdown-item" href="#">Fiction</a>
-          <a class="dropdown-item" href="#">Comic</a>
-          <a class="dropdown-item" href="#">Biographies</a>
-        </div>
-      </li>&nbsp;
-      <li class="nav-item dropdown">
-        <!--<img class="img-thumbnail navImages" src="images/homeAndFurniture.jpg">-->
-        <a class="nav-link text-light font-weight-bold px-3 dropdown-toggle" data-toggle="dropdown" href="#">Home & Furniture</a>
-      </li>
-    </ul>
-    <form class="form-inline ml-3" id="navBarSearchForm">
-      <div class="collapse navbar-collapse justify-content-between" id="nav1">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search for products, brands and more" title="Search for products, brands and more" aria-label="Search" />
-        <i id="filtersubmit" class="fa fa-search"></i>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-primary fixed-top">
+      <img class="img-thumbnail navImages1" src="images/flipkartIcon.jpeg">
+      <a class="navbar-brand text-white">FlipKart</a>
+      <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!--<img class="img-thumbnail navImages" src="images/homeAndFurniture.jpg">-->
+            <a class="nav-link text-light font-weight-bold px-3 dropdown-toggle" data-toggle="dropdown" href="#" id="homeDropdown">Home & Furniture</a>
+            <div class="dropdown-menu homeBooks" aria-labelledby="homeDropdown"></div>
+          </li>
+          <li class="nav-item dropdown" >
+            <!--<img class="img-thumbnail navImages" id="displayElectronics" src="images/elecotronics.jpg">-->
+            <a class="nav-link text-light font-weight-bold px-3 dropdown-toggle hoverElectronics" data-toggle="dropdown" href="#" id="electronicDropdown">Electronics</a>
+            <div class="dropdown-menu showElectronics" aria-labelledby="electronicDropdown">
+              <a class="dropdown-item" href="#">Mobile</a>
+              <a class="dropdown-item" href="#">Laptop</a>
+            </div>
+          </li>&nbsp;
+          <li class="nav-item dropdown">
+            <!--<img class="img-thumbnail navImages" id="displayBooks" src="images/books.jpg">-->
+            <a class="nav-link text-light font-weight-bold px-3 dropdown-toggle hoverBooks" data-toggle="dropdown" href="#" id="bookDropdown">Books</a>
+            <div class="dropdown-menu showBooks" aria-labelledby="bookDropdown">
+              <a class="dropdown-item" href="#">Fiction</a>
+              <a class="dropdown-item" href="#">Comic</a>
+              <a class="dropdown-item" href="#">Biographies</a>
+            </div>
+          </li>&nbsp;
+        </ul>
+        <form class="form-inline ml-3" id="navBarSearchForm">
+          <div class="collapse navbar-collapse justify-content-between" id="nav1">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search for products, brands and more" title="Search for products, brands and more" aria-label="Search" />
+            <i id="filtersubmit" class="fa fa-search"></i>
+            <!--<button class="searchButton" type="submit">Search</button>-->
+          </div>
+        </form>
       </div>
-    </form>
+    </nav>
+  </header>
+  <div id="container" class="container-fluid">
+    <!--<div>
+      <img class="navImages2" src="images/flipkartIcon.jpeg">
+      <h2 class="text-primary text-center"><i>MyShoppingCart</i></h2>
+    </div>-->
+    <div id="projects">
+      <ul id="main"  class="row">
+        <li class="col-sm-3">
+          <img class="img-thumbnail navImages" src="images/homeAndFurniture.jpg">
+          <a href="#home">Home</a>
+        </li>
+        <li class="col-sm-3">
+          <img class="img-thumbnail navImages" src="images/elecotronics.jpg">
+          <a href="#electronics">Electronics</a>
+        </li>
+        <li class="col-sm-3">
+          <img class="img-thumbnail navImages" src="images/books.jpg">
+          <a href="#books">Books</a>
+        </li>
+      </ul>
+      <!--<div id="electronics"></div>
+      <div id="books"></div>
+      <div id="home"></div>-->
+      <div class="displayData"></div>
+    </div>
   </div>
-</nav>
-<div id="container">
-  <div>
-    <img class="navImages2" src="images/flipkartIcon.jpeg">
-    <h2 class="text-primary text-center"><i>MyShoppingCart</i></h2>
-  </div>
-  <div id="projects">
-    <ul id="main">
-      <li>
-        <img class="img-thumbnail navImages" src="images/homeAndFurniture.jpg">
-        <a href="#home">Home</a>
-      </li>
-      <li>
-        <img class="img-thumbnail navImages" src="images/elecotronics.jpg">
-        <a href="#electronics">Electronics</a>
-      </li>
-      <li>
-        <img class="img-thumbnail navImages" src="images/books.jpg">
-        <a href="#books">Books</a>
-      </li>
-    </ul>
-    <!--<div id="electronics"></div>
-    <div id="books"></div>
-    <div id="home"></div>-->
-    <div class="displayData"></div>
-    <div></div>
-  </div>
-</div>
-<script src="js/myShoppingCart.js"></script>
+  <footer class="footer fixed-bottom bg-primary">
+    <div class="footer-copyright text-white text-center py-3"> © 2007-2020 Flipkart.com</div>
+  </footer>
+  <!--<footer class="page-footer font-small blue pt-4">
+    <div class="footer-copyright text-center py-3"> © 2007-2020 Flipkart.com</div>
+  </footer>-->
+  <script src="js/myShoppingCart.js"></script>
 </body>
 </html>

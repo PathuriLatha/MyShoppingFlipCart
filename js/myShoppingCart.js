@@ -1,13 +1,24 @@
 
 $(document).ready(function(){
-    $("#carouselId").hide();
-   $(".hoverElectronics").hover(function(){
+   /*$(".hoverElectronics").hover(function(){
       $(".showElectronics").toggle();
    });
    $(".hoverBooks").hover(function(){
       $(".showBooks").toggle();
+   });*/
+   $('#electronicDropdown').mouseenter(function () {
+       $('.showElectronics').toggle('medium');
+       $('.showBooks').hide();
+   });
+   $('#bookDropdown').mouseenter(function () {
+      $('.showBooks').toggle('medium');
+      $('.showElectronics').hide();
    });
 
+   /*$("#electronicDropdown, #bookDropdown").mouseout(function(){
+      $('.showElectronics').hide();
+      $('.showBooks').hide();
+   });*/
    $("#projects").tabs();
 
      $("ul#main").sortable({
@@ -29,32 +40,29 @@ $(document).ready(function(){
 
         if(value.type == 'electronics'){
           $("#electronics").append("<li class='displayImages'>"
-             +"<figure class='figure'>"
-               +"<img class='img-thumbnail' title='"+value.description+"' src='"+value.imgPath+"'>"
-               +"<figcaption class='figure-cap'>"
-                 +value.name+"<br> Price: "+value.price
-               +"</figcaption>"
-             +"</figure>"
+             +"<div class='paddingImage'>"
+                +"<img class='img-thumbnail img-responsive img-fluid' title='"+value.description+"' src='"+value.imgPath+"'>"
+                +"<p>"+value.name+"<br> <i class='fa fa-rupee'></i>"+value.price+"</p>"
+                +"<button class='btn btn-success text-white rating'>"+value.rating+"<i class='fa fa-star' aria-hidden='true'></i></button>"
+             +"</div>"
           +"</li>");
         }
         else if(value.type == 'books'){
           $("#books").append("<li class='displayImages'>"
-             +"<figure class='figure'>"
-               +"<img class='img-thumbnail' title='"+value.description+"' src='"+value.imgPath+"'>"
-               +"<figcaption class='figure-cap'>"
-                 +value.name+"<br> Price: "+value.price
-               +"</figcaption>"
-             +"</figure>"
+             +"<div class='paddingImage'>"
+                +"<img class='img-thumbnail img-responsive img-fluid' title='"+value.description+"' src='"+value.imgPath+"'>"
+                +"<p>"+value.name+"<br> <i class='fa fa-rupee'></i>"+value.price+"</p>"
+                +"<button class='btn btn-success text-white rating'>"+value.rating+"<i class='fa fa-star' aria-hidden='true'></i></button>"
+             +"</div>"
           +"</li>");
         }
         if(value.rating >= 4){
           $("#home").append("<li class='displayImages'>"
-             +"<figure class='figure'>"
-               +"<img class='img-thumbnail' title='"+value.description+"' src='"+value.imgPath+"'>"
-               +"<figcaption class='figure-cap'>"
-                 +value.name+"<br> Price: "+value.price
-               +"</figcaption>"
-             +"</figure>"
+             +"<div class='paddingImage'>"
+               +"<img class='img-thumbnail img-responsive img-fluid' title='"+value.description+"' src='"+value.imgPath+"'>"
+               +"<p>"+value.name+"<br> <i class='fa fa-rupee'></i>"+value.price+"</p>"
+               +"<button class='btn btn-success text-white rating'>"+value.rating+"<i class='fa fa-star' aria-hidden='true'></i></button>"
+             +"</div>"
           +"</li>");
         }
       });
