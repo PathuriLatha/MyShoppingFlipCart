@@ -87,6 +87,15 @@ ul {
         font-size: 1.25rem;
     }
 }
+.imageDescription{
+  /*float: left;*/
+  padding: 60px;
+}
+.imageD{
+  /*float: left;*/
+  height: 400px;
+  width: 150px;
+}
 
 
 
