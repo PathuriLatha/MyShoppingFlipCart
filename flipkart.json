@@ -100,7 +100,7 @@
     "RAM": "3 GB RAM",
     "modelName": "628 99HAJZ010-00",
     "color": "Sunset Blue",
-    "battery": "2200mAH",
+    "battery": "2200mAH Battery",
     "imgPath": "images/ELEC_PRD_4.jpeg",
     "rating": 4,
     "camera": {
@@ -145,7 +145,7 @@
     "RAM": "3 GB RAM",
     "modelName": "2PUK100",
     "color": "Polar White",
-    "battery": "2700mAH",
+    "battery": "2700mAH Battery",
     "imgPath": "images/ELEC_PRD_4.jpeg",
     "rating": 3.5,
     "camera": {
@@ -235,7 +235,7 @@
     "RAM": "2GB RAM",
     "modelName": "K5",
     "color": "Gold",
-    "battery": "2750mAH ",
+    "battery": "2750mAH Battery",
     "imgPath": "images/ELEC_PRD_6.jpeg",
     "rating": 3,
     "camera": {

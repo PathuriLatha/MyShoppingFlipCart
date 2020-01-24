@@ -61,6 +61,10 @@ ul {
 .paddingImage{
   padding-bottom: 70px;
 }
+#displayImageComments{
+  /*padding-bottom: 50px;*/
+  margin-bottom: 60px;
+}
 
 #container{
   /*padding-top: 60px;*/
@@ -73,6 +77,10 @@ ul {
         width: 100%;
         padding-top: 4%;
     }
+    #displayImageComments{
+        width: 100%;
+        padding-bottom: 10%
+    }
 
 }
 /*@media only screen and (min-width: 320px){
@@ -80,6 +88,11 @@ ul {
         width: 100%;
     }
 }*/
+
+.commentRating{
+  width: 30px;
+  /*margin: 10px;*/
+}
 
 @media only screen and (max-width: 320px){
     #projects{
