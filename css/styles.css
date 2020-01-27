@@ -63,7 +63,7 @@ ul {
 }
 #displayImageComments{
   /*padding-bottom: 50px;*/
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 #container{
@@ -109,6 +109,8 @@ ul {
   height: 400px;
   width: 150px;
 }
-
+.floatClass{
+  float: left;
+}
 
 

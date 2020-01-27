@@ -6,6 +6,7 @@ $(document).ready(function(){
    $(".hoverBooks").hover(function(){
       $(".showBooks").toggle();
    });*/
+
    $("#displayImageDetails").hide();
    $("#displayImageComments").hide();
 
@@ -18,22 +19,35 @@ $(document).ready(function(){
       $('.showElectronics').hide();
    });
 
+   /*
+   $(".booksLink").click(function(){
+      alert("Books clicked");
+      $(".displayData").empty();
+      var books = $("#books");
+      $(".displayData").append(books);
+      //$("#books").show();
+   });
+  */
+
    /*$("#electronicDropdown, #bookDropdown").mouseout(function(){
       $('.showElectronics').hide();
       $('.showBooks').hide();
    });*/
-   $("#projects").tabs();
 
+   $("#projects").tabs();
    $("ul#main").sortable({
      axis: "x",
      containment: "#projects"
    });
-    /*
+
+   /*
    $(".customTabs").click(function(){
       $("#displayImageDetails").hide();
       $(".displayData").show();
    });
    */
+   //$("div.displayData ul#home").show();
+
    $("#homeTab").click(function(){
       /*alert("homeTab");
       $("#home").show();*/
@@ -41,6 +55,7 @@ $(document).ready(function(){
       $("#displayImageDetails").hide();
       $("#displayImageComments").hide();
    });
+
    $("#elecotronicsTab").click(function(){
       /*alert("elecotronicsTab");
       $("#electronics").show();*/
@@ -48,6 +63,7 @@ $(document).ready(function(){
       $("#displayImageDetails").hide();
       $("#displayImageComments").hide();
    });
+
    $("#booksTab").click(function(){
       /*alert("booksTab");
       $("#books").show();*/
@@ -55,7 +71,6 @@ $(document).ready(function(){
       $("#displayImageDetails").hide();
       $("#displayImageComments").hide();
    });
-
 
    $.ajax({
     url: "flipkart.json",
@@ -76,22 +91,12 @@ $(document).ready(function(){
           $(".displayData").hide();
         });*/
 
-        /*
-          var imagePath = value.imgPath;
-          var imgId = imagePath.split("/");
-          console.log(imgId);
-          console.log(imgId[1]);
-          var str = imgId[1].slice(0, -5);
-          console.log(str);
-          console.log(value.id);
-        */
-
         if(value.type == 'electronics'){
           $("#electronics").append("<li class='displayImages'>"
              +"<div class='paddingImage'>"
                 +"<img class='imageDetails img-thumbnail img-responsive img-fluid' id='dynamicID"+index+"' title='"+value.description+"' src='"+value.imgPath+"'>"
                 +"<p value='"+value.name+"'>"+value.name+"</p>"
-                +"<p class='price' value='"+value.price+"'><i class='fa fa-rupee'></i>"+value.price+"</p>"
+                +"<p class='price' value='"+value.price+"'><i class='fa fa-rupee'></i> "+value.price+"</p>"
                 +"<button class='btn btn-success text-white rating' value='"+value.rating+"'>"+value.rating+"<i class='fa fa-star' aria-hidden='true'></i></button>"
              +"</div>"
           +"</li>");
@@ -101,7 +106,7 @@ $(document).ready(function(){
              +"<div class='paddingImage'>"
                 +"<img class='imageDetails img-thumbnail img-responsive img-fluid' id='dynamicID"+index+"' title='"+value.description+"' src='"+value.imgPath+"'>"
                 +"<p value='"+value.name+"'>"+value.name+"</p>"
-                +"<p class='price' value='"+value.price+"'><i class='fa fa-rupee'></i>"+value.price+"</p>"
+                +"<p class='price' value='"+value.price+"'><i class='fa fa-rupee'></i> "+value.price+"</p>"
                 +"<button class='btn btn-success text-white rating' value='"+value.rating+"'>"+value.rating+"<i class='fa fa-star' aria-hidden='true'></i></button>"
              +"</div>"
           +"</li>");
@@ -112,7 +117,7 @@ $(document).ready(function(){
              +"<div class='paddingImage'>"
                +"<img class='imageDetails img-thumbnail img-responsive img-fluid' title='"+value.description+"' src='"+value.imgPath+"'>"
                +"<p value='"+value.name+"'>"+value.name+"</p>"
-               +"<p class='price' value='"+value.price+"'><i class='fa fa-rupee'></i>"+value.price+"</p>"
+               +"<p class='price' value='"+value.price+"'><i class='fa fa-rupee'></i> "+value.price+"</p>"
                +"<button class='btn btn-success text-white rating' value='"+value.rating+"'>"+value.rating+"<i class='fa fa-star' aria-hidden='true'></i></button>"
              +"</div>"
           +"</li>");
@@ -157,7 +162,7 @@ $(document).ready(function(){
                   +"<li class='bg-success text-white commentRating'><b>"+v.comments[x].rating+"</b><i class='fa fa-star' aria-hidden='true'></i></li>"
                   +"<li class='text-muted'>user - "+v.comments[x].username+"</li>"
                   +"<li class='text-muted'>commented on - "+v.comments[x].commentedOn+"</li>"
-                +"------------------------------------------------------</ul>");
+                +"------------------------------</ul>");
               }
             if(v.type == 'electronics'){
               if(v.offers[0].amount == undefined){
@@ -170,14 +175,14 @@ $(document).ready(function(){
                       +"</td>"
                       +"<td class='imageDescription'>"
                         +"<ul>"
-                          +"<li class='text-dark'><b>"+v.name+" ( "+v.RAM+" )</b></li>"
+                          +"<li class='text-dark'><b>"+v.name+" ( "+v.color+", "+v.RAM+" )</b></li>"
                           +"<li><button class='btn btn-success text-white rating'>"+v.rating+"<i class='fa fa-star' aria-hidden='true'></i></button></li>"
-                          +"<li><i class='fa fa-rupee'><b>"+v.price+"</b></i></li>"
+                          +"<li><i class='fa fa-rupee'> <b>"+v.price+"</b></i></li>"
                           +"<li>Model Name - "+v.modelName+"</li>"
-                          +"<li>"+v.battery+"</li>"
-                          +"<li>color - "+v.color+"</li>"
-                          +"<li><i class='fa fa-camera'></i>Camera Front - "+v.camera.front+"</li>"
-                          +"<li <i class='fa fa-camera'></i>Camera Rear - "+v.camera.rear+"</li>"
+                          +"<li class='text-info'><b><i class='fa fa-bolt'><b> Battery</b></i>"+v.battery+"</b></li>"
+                          +"<li>Brand - "+v.brand+"</li>"
+                          +"<li class='floatClass'><i class='fa fa-camera'></i> Camera Front - "+v.camera.front+"</li>"
+                          +"<li>, Rear - "+v.camera.rear+"</li>"
                           +"<li class='text-success'><i class='fa fa-tag'></i><b> Offer - "+v.offers[0].type+" "+v.offers[0].percentage+"</b></li>"
                           +"<li><b>Description - </b>"+v.description+"</li>"
                           +"<li class='clickComments'><a href='#commentsDiv' class='text-primary'>view "+v.comments.length+" comments</a></li>"
@@ -197,14 +202,14 @@ $(document).ready(function(){
                       +"</td>"
                       +"<td class='imageDescription'>"
                         +"<ul>"
-                          +"<li class='text-dark'><b>"+v.name+" ( "+v.RAM+" )</b></li>"
+                          +"<li class='text-dark'><b>"+v.name+" ( "+v.color+", "+v.RAM+" )</b></li>"
                           +"<li><button class='btn btn-success text-white rating'>"+v.rating+"<i class='fa fa-star' aria-hidden='true'></i></button></li>"
-                          +"<li><i class='fa fa-rupee'><b>"+v.price+"</b></i></li>"
+                          +"<li><i class='fa fa-rupee'> <b>"+v.price+"</b></i></li>"
                           +"<li>Model Name - "+v.modelName+"</li>"
-                          +"<li>"+v.battery+"</li>"
-                          +"<li>color - "+v.color+"</li>"
-                          +"<li><i class='fa fa-camera'></i>Camera Front - "+v.camera.front+"</li>"
-                          +"<li><i class='fa fa-camera'></i>Camera Rear - "+v.camera.rear+"</li>"
+                          +"<li class='text-info'><b><i class='fa fa-bolt'><b> Battery<b></i>"+v.battery+"</b></li>"
+                          +"<li>Brand - "+v.brand+"</li>"
+                          +"<li class='floatClass'><i class='fa fa-camera'></i> Camera Front - "+v.camera.front+"</li>"
+                          +"<li>, Rear - "+v.camera.rear+"</li>"
                           +"<li class='text-success'><i class='fa fa-tag'></i><b> Offer - <i class='fa fa-rupee'><b>"+v.offers[0].amount+"</b></i> "+v.offers[0].type+"</b></li>"
                           +"<li><b>Description - </b>"+v.description+"</li>"
                           +"<li class='clickComments'><a href='#commentsDiv' class='text-primary'>view "+v.comments.length+" comments</a></li>"
@@ -218,16 +223,16 @@ $(document).ready(function(){
             else if(v.type == 'books'){
               $("#displayImageDetails").append("<div class='container'>"
                   +"<table><tr>"
-                    +"<td class='imageD'>"
+                    +"<td class='imageD row row-lg-12'>"
                       +"<img class='img-thumbnail img-responsive img-fluid' src='"+v.imgPath+"' style='height: 300px;width: 200px'>"
-                      +"<button class='btn btn-warning text-white'><i class='fa fa-shopping-cart'><b></i>Add TO CART</b></button>"
-                     // +"<button class='btn btn-success'>BUY NOW</button>"
+                      +"<button class='col col-lg-12 btn btn-warning text-white'><i class='fa fa-shopping-cart'><b></i>Add TO CART</b></button>"
+                     // +"<button class='col col-lg-6 btn btn-success'><i class='fa fa-bolt'><b></i> BUY NOW<b></button>"
                     +"</td>"
                     +"<td class='imageDescription'>"
                       +"<ul>"
                         +"<li class='text-dark'><b>"+v.name +"</b></li>"
                         +"<li><button class='btn btn-success text-white rating'>"+v.rating+"<i class='fa fa-star' aria-hidden='true'></i></button></li>"
-                        +"<li><i class='fa fa-rupee'><b>"+v.price+"</b></i></li>"
+                        +"<li><i class='fa fa-rupee'> <b>"+v.price+"</b></i></li>"
                         +"<li>Author - "+v.by+"</li>"
                         +"<li class='text-success'><i class='fa fa-tag'></i><b> Offer </b><i class='fa fa-rupee'><b>"+v.offers[0].amount+"</b></i> <button class='btn btn-primary text-white'>"+v.offers[0].type+"</button></li>"
                         +"<li><b>Description - </b>"+v.description+"</li>"
